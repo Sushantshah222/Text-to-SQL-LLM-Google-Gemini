@@ -6,6 +6,10 @@ This project is a simple web-based application that converts natural language qu
 
 This project leverages Google Gemini AI to generate SQL queries dynamically from natural language inputs. The queries are executed on an SQLite database that contains student records such as names, classes, sections, marks, and ages.
 
+![app](https://github.com/user-attachments/assets/47ea724f-0590-4aae-9826-68af7a915842)
+
+
+
 ### Features:
 - Converts natural language questions into SQL queries.
 - Executes SQL queries on an SQLite database.
@@ -39,17 +43,14 @@ This project leverages Google Gemini AI to generate SQL queries dynamically from
 
 3. Create a .env file in the root directory and add your Google API key:
     ```makefile
-
     GOOGLE_API_KEY=your-google-api-key-here
 
 4. Set up the SQLite database by running the sql.py script:
     ```bash
-    Copy code
     python sql.py
 
 5. Run the Streamlit app:
     ```bash
-
     streamlit run app.py
 
 6. Open your browser and navigate to the provided local address (e.g., `http://localhost:8501/`).
