@@ -6,8 +6,7 @@ This project is a simple web-based application that converts natural language qu
 
 This project leverages Google Gemini AI to generate SQL queries dynamically from natural language inputs. The queries are executed on an SQLite database that contains student records such as names, classes, sections, marks, and ages.
 
-![app](https://github.com/user-attachments/assets/47ea724f-0590-4aae-9826-68af7a915842)
-
+![Uploading txt to sql.gif…]()
 
 
 ### Features:
